@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from pathlib import Path
-from cad.generate_tag import render_stl
+from backend.cad.generate_tag import render_stl
 
 app = FastAPI()
 
